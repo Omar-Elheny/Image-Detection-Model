@@ -8,10 +8,10 @@ from decimal import Decimal, ROUND_HALF_UP
 #---------------------------- initialize app -------------------------
 app = Flask(__name__)
 # --------------------------- initilaize firebaase --------------------
-cred = credentials.Certificate("E:/Desktop/Grad-Project/test model/flutter-test1-omarelheny-firebase-adminsdk-wq0rx-3cc12d5bba.json")
+#cred = credentials.Certificate("E:/Desktop/Grad-Project/test model/flutter-test1-omarelheny-firebase-adminsdk-wq0rx-3cc12d5bba.json")
 # cred=credentials.Certificate("D:/Extras/Codefiles/Flutterfiles/college_project/api/graduationproject-fd501-firebase-adminsdk-4rg5f-865efffb59.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
+#firebase_admin.initialize_app(cred)
+#db = firestore.client()
 
 # Load your AI model
 model = load_model("keras_model.h5", compile=False)
