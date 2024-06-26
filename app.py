@@ -4,9 +4,11 @@ from flask import Flask, request, jsonify, render_template
 from keras.models import load_model
 import numpy as np
 from PIL import Image
-#from decimal import Decimal, ROUND_HALF_UP
+from flask_cors import CORS
+from decimal import Decimal, ROUND_HALF_UP
 #---------------------------- initialize app -------------------------
 app = Flask(__name__)
+CORS(app)
 # --------------------------- initilaize firebaase --------------------
 #cred = credentials.Certificate("E:/Desktop/Grad-Project/test model/flutter-test1-omarelheny-firebase-adminsdk-wq0rx-3cc12d5bba.json")
 # cred=credentials.Certificate("D:/Extras/Codefiles/Flutterfiles/college_project/api/graduationproject-fd501-firebase-adminsdk-4rg5f-865efffb59.json")
