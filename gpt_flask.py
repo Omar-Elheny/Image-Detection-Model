@@ -1,10 +1,10 @@
-import firebase_admin
-from firebase_admin import credentials,firestore
+#import firebase_admin
+#from firebase_admin import credentials,firestore
 from flask import Flask, request, jsonify, render_template
 from keras.models import load_model
 import numpy as np
 from PIL import Image
-from decimal import Decimal, ROUND_HALF_UP
+#from decimal import Decimal, ROUND_HALF_UP
 #---------------------------- initialize app -------------------------
 app = Flask(__name__)
 # --------------------------- initilaize firebaase --------------------
