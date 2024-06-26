@@ -1,0 +1,3 @@
+0 Real
+1 Fully Generated
+2 Filtered
